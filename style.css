@@ -1,0 +1,25 @@
+body{
+    background-color:#90a955; 
+    padding: 10 px; 
+    margin:15px; 
+}
+
+/*  
+@font-face{
+    font-family: 'pretty';
+    src: url('fonts/poti.ttf'); 
+    font-style: normal; 
+    font-weight: 100%;
+}
+*/
+
+.homeContainer{
+    color: #ecf39e; 
+    text-align: right; 
+    display: flex; 
+    justify-content: flex-end; /* pushes content to the right */
+    align-items: center;       /* centers content vertically */
+    height: 100vh; 
+    font-size: 5rem;
+} 
+
