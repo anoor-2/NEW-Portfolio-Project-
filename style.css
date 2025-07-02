@@ -310,6 +310,10 @@ main {
     height: 50px; 
 }
 
+.contact-right{
+    font-family:'bavista';
+}
+
 @media(max-width:800px){
     .contact-inputs{
         width:80vw; 
