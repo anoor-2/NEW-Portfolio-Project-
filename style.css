@@ -264,6 +264,19 @@ main {
     border-radius:20px; 
 }
 
+.contact-left button{
+    display: flex; 
+    align-items: center; 
+    font-size: 16px; 
+    padding: 15 px 30px;
+    color: white; 
+    gap:10px;
+    border: none; 
+    border-radius:23px;
+    background-color: #5d9637;
+    cursor: pointer;
+}
+
 .contact-inputs:focus{
     border: 2px solid #366e11; 
 }
@@ -271,3 +284,22 @@ main {
 .contact-inputs::placeholder{
     color:#a9a9a9;
 }
+
+.contact-left button img{
+    height: 45px; 
+    width:auto; 
+}
+
+.contact-right img{
+    width: 50px;
+    height: 50px; 
+}
+
+@media(max-width:800px){
+    .contact-inputs{
+        width:80vw; 
+    }
+    .contact-right{
+        display:none; 
+    }
+}   
