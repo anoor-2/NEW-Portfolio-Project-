@@ -144,6 +144,7 @@ main {
     gap: 20px;
     margin-top: 20px;
     flex-wrap: wrap;
+    margin-left:15px;
 }
 
 .caseStudyPic img {
