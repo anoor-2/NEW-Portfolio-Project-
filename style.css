@@ -1,8 +1,10 @@
 body{
-    background-color:#9cc97F; 
+    background-color:#9cc97f; 
     padding:10 px; 
     margin:40px; 
     padding-top: 60px; /* same height as navbar */
+    display:flex;
+    flex-direction: column;
 
 }
 
@@ -105,7 +107,40 @@ list-style-type: none;
     position: absolute;
     top: 20px;
     right: 40px;
-
 }
 
+.footer{
+    background-color:#5d9637;
+    font-size:larger; 
+}
+
+.caseStudyPic{
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically if there's height */
+    gap: 20px; /* spacing between the buttons */
+    margin-top: 20px;
+    flex-wrap: wrap; /* so it wraps on smaller screens */
+}
+
+.caseStudyPic img {
+    width: 20rem; /* adjust size to your liking */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.caseStudyPic button {
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caseStudyPic button:hover {
+    transform: scale(1.1); /* slight zoom on hover */
+
+}
 
