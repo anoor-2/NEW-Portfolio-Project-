@@ -163,17 +163,22 @@ main {
     gap: 20px;
     margin-top: 50px;
     width: 100%;
+    height:220px; 
     position: relative;
     left: -10px;
     box-sizing: border-box;
     text-align: center; 
 }
 
+#mySkills h1{
+    margin-bottom:5px; 
+}
+
 .skills-images{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
     flex-wrap: wrap; 
 }
 
