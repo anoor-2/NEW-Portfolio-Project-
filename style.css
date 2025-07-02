@@ -164,3 +164,11 @@ html {
 #mySkills img:hover {
     transform: scale(1.1);
 }
+
+.submitBtn {
+    width: 50px; /* Adjust to your liking */
+    height: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
