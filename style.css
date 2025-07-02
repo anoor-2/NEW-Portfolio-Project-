@@ -1,14 +1,21 @@
-html, body {
+
+html {
+    scroll-behavior: smooth;
+    height: 100%
+}
+
+body {
     background-color: #9cc97f;
-    padding: 15px; 
-    padding-top: 60px; /* same height as navbar */
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Helps footer placement */
-    overflow-y: scroll;
+    min-height: 100vh;
+    margin: 0;
+    padding: 15px;
+    padding-top: 60px; /* same height as navbar */
+    padding-right: 15px;
+    overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    padding-right: 15px;
 }
 
 html::-webkit-scrollbar, 
@@ -16,15 +23,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+main {
+  flex-grow: 1; /* Fills all available vertical space */
+}
+
+
 @font-face {
     font-family: 'lemon';
     src: url('fonts/LemonSmashRegular-5yRnv.otf');
     font-style: normal;
     font-weight: 100;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .homeContainer {
@@ -109,9 +117,9 @@ html {
 }
 
 .footer {
+    margin-top: auto; /* Push footer to bottom */
     background-color: #5d9637;
     font-size: larger;
-    margin-top: auto; /* Footer pushes to bottom if little content */
     padding: 10px;
     text-align: center;
 }
