@@ -16,6 +16,13 @@ body {
     -ms-overflow-style: none;
 }
 
+h1{
+    color: #ecf39e
+}
+p{
+    color: #3c6823; 
+}
+
 .page-container {
     flex: 1;
     margin: 0 auto; /* <-- this centers it horizontally */
