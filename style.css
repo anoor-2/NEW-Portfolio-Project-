@@ -312,7 +312,7 @@ main {
 }
 
 .contact-right{
-    font-family:'bavista';
+    font-family:'lemon',sans-serif;
 }
 
 @media(max-width:800px){
