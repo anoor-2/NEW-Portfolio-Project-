@@ -16,8 +16,9 @@
         </ul>
         </nav>
         </header>       
-
-        <!--This is the first page people see when they open the site -->
+        
+    <div class="page-container"> <!-- changed from content to page-container and margin fixed -->
+    <!--This is the first page people see when they open the site -->
     <div class="homeContainer" id="home">
         <h1 class="title">Welcome <br> To My Portfolio! </h1>
         <img src="Pictures/medals.webp" id="medalPic" class="pictures">
@@ -43,16 +44,18 @@
             But it was only because they made me take the class in the first place that my teacher, Mr. Lemke, had introduced me to the Nextech Catapult Internship, which is where I sat down and created this portfolio. </p>
         </div>
     </div>
-
-        <div id="mySkills" class="skills">
+    </div>
+        <div id="mySkills">
             <h1>What I Currently Know</h1>
+            <div class="skills">
             <img src="Pictures/Skils/html.png">
             <img src="Pictures/Skils/css.png">
             <img src="Pictures/Skils/javascript.png">
             <img src="Pictures/Skils/python.png">
-
+            </div>
         </div>
 
+    <div class="content">
         <div id="caseStudy">
             <h1>Case Study</h1>
             <div class="caseStudyPic">
@@ -81,13 +84,12 @@
                 </div>
             </div>
         </div>
-
+    </div>
     <footer class="footer">
         <hr>
         <p>This is a footer</p> 
         <!-- <a href="mailto:averinoor2020@gmail.com"> Here's my email </a> -->
     </footer>
-
 
     </body>
     <script src="script.js"></script>
